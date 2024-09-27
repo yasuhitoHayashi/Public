@@ -1,21 +1,40 @@
-ul {
-    list-style-type: none;
+body {
+    font-family: "Times New Roman", Times, serif;  /* セリフ体に変更 */
+    margin: 20px;
     padding: 0;
-    margin: 0;
 }
 
-li {
-    display: flex;
-    align-items: flex-start;  /* アイテムを上揃え */
-    margin-bottom: 15px;  /* 行間を少なくする */
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;  
+}
+
+.information ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;  /* 文字間を少し狭くする */
+}
+
+.information ul li {
+    margin-bottom: 10px;
+    text-align: left;
 }
 
 img {
-    max-width: 100%;  /* 画像が画面サイズを超えないように調整 */
+    max-width: 90%;  /* 横幅いっぱいに広がらないように90%に設定 */
     height: auto;
+    display: block;
+    margin: 20px auto;  /* 上下に余白を追加し、中央揃え */
 }
 
-.information {
-    text-align: left;  /* テキストを左揃え */
-    margin-bottom: 40px;  /* セクション間のスペースを確保 */
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
