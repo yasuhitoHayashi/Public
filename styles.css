@@ -1,12 +1,13 @@
 ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 li {
     display: flex;
-    align-items: flex-start;  /* アイテムの上部で揃える */
-    margin-bottom: 30px;
+    align-items: flex-start;  /* アイテムを上揃え */
+    margin-bottom: 15px;  /* 行間を少なくする */
 }
 
 img {
@@ -15,6 +16,6 @@ img {
 }
 
 .information {
-    text-align: left;  /* テキストを左揃えに修正 */
-    margin-bottom: 40px;
+    text-align: left;  /* テキストを左揃え */
+    margin-bottom: 40px;  /* セクション間のスペースを確保 */
 }
