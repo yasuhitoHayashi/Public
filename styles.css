@@ -18,31 +18,3 @@ img {
     text-align: left;  /* テキストを左揃えに修正 */
     margin-bottom: 40px;
 }
-
-.thumbnail {
-    width: 100px;  /* サムネイル画像のサイズ */
-    height: auto;
-    margin-right: 20px;
-    flex-shrink: 0;  /* サムネイル画像が縮小されないようにする */
-}
-
-.publication-details {
-    flex-grow: 1;  /* 論文情報のテキストがサムネイルに対して広がるように */
-}
-
-.publication-title {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-
-.publication-authors {
-    font-size: 16px;
-    margin-bottom: 5px;
-}
-
-.publication-journal {
-    font-style: italic;
-    color: gray;
-    margin-bottom: 10px;
-}
