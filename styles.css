@@ -8,7 +8,7 @@ h2 {
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 20px;
-    text-align: left;  
+    text-align: center;  
 }
 
 .information ul {
@@ -20,7 +20,7 @@ h2 {
 
 .information ul li {
     margin-bottom: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 img {
