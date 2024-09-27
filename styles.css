@@ -11,6 +11,21 @@ h2 {
     text-align: left;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.image-section, .figure-section {
+    width: 48%;
+}
+
+.image-section img, .figure-section img {
+    width: 100%;
+    height: auto;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -35,20 +50,4 @@ li {
     font-style: italic;
     color: gray;
     margin-bottom: 10px;
-}
-
-.abs-button {
-    padding: 5px 10px;
-    border: 1px solid black;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: bold;
-    background-color: transparent;
-    cursor: pointer;
-}
-
-.abs-button:hover {
-    background-color: black;
-    color: white;
-    transition: 0.3s;
 }
