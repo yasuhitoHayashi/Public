@@ -5,7 +5,7 @@ ul {
 
 li {
     display: flex;
-    align-items: center;
+    align-items: flex-start;  /* アイテムの上部で揃える */
     margin-bottom: 30px;
 }
 
@@ -15,18 +15,19 @@ img {
 }
 
 .information {
-    text-align: center;
+    text-align: left;  /* テキストを左揃えに修正 */
     margin-bottom: 40px;
 }
 
 .thumbnail {
-    width: 100px;
+    width: 100px;  /* サムネイル画像のサイズ */
     height: auto;
     margin-right: 20px;
+    flex-shrink: 0;  /* サムネイル画像が縮小されないようにする */
 }
 
 .publication-details {
-    flex-grow: 1;
+    flex-grow: 1;  /* 論文情報のテキストがサムネイルに対して広がるように */
 }
 
 .publication-title {
