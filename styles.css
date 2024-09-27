@@ -2,14 +2,13 @@ body {
     font-family: "Times New Roman", Times, serif;  /* セリフ体に変更 */
     margin: 20px;
     padding: 0;
-    text-align: center;
 }
 
 h2 {
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 20px;
-    text-align: left;  
+    text-align: center;  
 }
 
 .information {
