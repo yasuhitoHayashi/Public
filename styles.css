@@ -2,6 +2,7 @@ body {
     font-family: "Times New Roman", Times, serif;  /* セリフ体に変更 */
     margin: 20px;
     padding: 0;
+    text-align: center;
 }
 
 h2 {
