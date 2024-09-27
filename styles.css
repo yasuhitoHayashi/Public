@@ -2,14 +2,19 @@ body {
     font-family: "Times New Roman", Times, serif;  /* セリフ体に変更 */
     margin: 20px;
     padding: 0;
-    background-color: #f4f4f4;
 }
 
 h2 {
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 20px;
-    text-align: center;  
+    text-align: left;  
+}
+
+.information {
+    width: 80%;  /* 画面の中央80%を使用 */
+    margin: 0 auto;  /* 画面の中央に配置 */
+    text-align: left;  /* テキストを左寄せ */
 }
 
 .information ul {
@@ -21,11 +26,10 @@ h2 {
 
 .information ul li {
     margin-bottom: 10px;
-    text-align: center;
 }
 
 img {
-    max-width: 60%;  /* 横幅いっぱいに広がらないように90%に設定 */
+    max-width: 90%;  /* 横幅いっぱいに広がらないように90%に設定 */
     height: auto;
     display: block;
     margin: 20px auto;  /* 上下に余白を追加し、中央揃え */
