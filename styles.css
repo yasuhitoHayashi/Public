@@ -30,9 +30,8 @@ h2 {
 
 .notes {
     text-align: right;  /* テキストを右揃え */
-    font-size: 14px;  /* フォントサイズを少し小さくする（注釈らしさを強調） */
+    font-size: 14px;  /* フォントサイズを少し小さくする */
     color: gray;  /* 色を少し薄くして注釈っぽくする */
-    margin-top: 10px;  /* 前の要素との間に少し余白を追加 */
 }
 
 img {
